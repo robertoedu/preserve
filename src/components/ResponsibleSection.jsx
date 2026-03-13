@@ -2,7 +2,6 @@ import React from "react";
 import {
   Box,
   Container,
-  Grid,
   Typography,
   Stack,
   Avatar,
@@ -82,10 +81,25 @@ const ResponsibleSection = () => {
             </Typography>
           </Stack>
 
-          {/* Grid com as biólogas */}
-          <Grid container spacing={4} justifyContent="center">
+          {/* Flex com as biólogas */}
+          <Box
+            sx={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: 4,
+              justifyContent: "center",
+              width: "100%",
+            }}
+          >
             {biologists.map((biologist, index) => (
-              <Grid item xs={12} md={6} key={index}>
+              <Box
+                key={index}
+                sx={{
+                  width: { xs: "100%", md: "calc(50% - 16px)" },
+                  maxWidth: 520,
+                  flexShrink: 0,
+                }}
+              >
                 <Card
                   elevation={3}
                   sx={{
@@ -201,9 +215,9 @@ const ResponsibleSection = () => {
                     </List>
                   </CardContent>
                 </Card>
-              </Grid>
+              </Box>
             ))}
-          </Grid>
+          </Box>
 
           {/* Texto final institucional */}
           <Typography
