@@ -23,22 +23,21 @@ import { School, Verified, Work, EmojiNature } from "@mui/icons-material";
 
 const biologists = [
   {
-    name: "Dra. Ana Paula Silva",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
-    degree: "Bióloga",
-    registration: "CRBio 00000/00-D",
-    experience: "+10 anos de experiência",
+    name: "Nadihesca Dell'Osbel Pozzebom",
+    image: "/Nadiesca.jpg",
+    degree: "Bióloga — Universidade de Santa Cruz do Sul (2018)",
+    registration: "CRBio 118406/03-D",
+    experience: "Pós-graduada em Gestão, Licenciamento e Auditoria Ambiental",
     specialty: "Especialista em licenciamento e regularização ambiental",
   },
   {
-    name: "Dra. Maria Fernanda Costa",
-    image:
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
-    degree: "Bióloga",
-    registration: "CRBio 00000/00-D",
-    experience: "+8 anos de experiência",
-    specialty: "Especialista em estudos de fauna e flora",
+    name: "Dariane Severgnini",
+    image: "/Dariane.jpeg",
+    degree: "Engenheira Ambiental — UNISC (2024)",
+    registration: "CREA: RS268871",
+    experience:
+      "Pós-graduanda em Tecnologias Sustentáveis para Agricultura e Meio Ambiente (UERGS)",
+    specialty: "Especialista em tecnologias sustentáveis e meio ambiente",
   },
 ];
 
