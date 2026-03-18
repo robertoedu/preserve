@@ -32,7 +32,7 @@ const biologists = [
   },
   {
     name: "Dariane Severgnini",
-    image: "/Dariane.jpeg",
+    image: "/Dariane.png",
     degree: "Engenheira Ambiental — UNISC (2024)",
     registration: "CREA: RS268871",
     experience:

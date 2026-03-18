@@ -48,8 +48,8 @@ const AboutSection = () => {
                   }}
                 />
                 <Avatar
-                  src="/Dariane.jpeg"
-                  alt="Dariane"
+                  src="/Dariane.png"
+                  alt="Dariane Severgnini"
                   sx={{
                     width: { xs: 150, md: 180 },
                     height: { xs: 150, md: 180 },
