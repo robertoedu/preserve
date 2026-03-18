@@ -54,21 +54,25 @@ landing-page-preserve/
 ### Instalação
 
 1. Navegue até o diretório do projeto:
+
 ```bash
 cd landing-page-preserve
 ```
 
 2. Instale as dependências:
+
 ```bash
 npm install
 ```
 
 3. Inicie o servidor de desenvolvimento:
+
 ```bash
 npm run dev
 ```
 
 4. Acesse no navegador:
+
 ```
 http://localhost:3000
 ```
@@ -104,7 +108,7 @@ Os arquivos otimizados estarão na pasta `dist/`.
 No arquivo [src/components/HeroSection.jsx](src/components/HeroSection.jsx) e [src/components/CTASection.jsx](src/components/CTASection.jsx), atualize o número do WhatsApp:
 
 ```javascript
-window.open('https://wa.me/5551999999999', '_blank');
+window.open("https://wa.me/5551999999999", "_blank");
 ```
 
 ### Substituir Imagens
@@ -118,6 +122,7 @@ As imagens usam placeholders do Unsplash. Substitua pelas imagens reais da empre
 ### Ajustar Informações de Contato
 
 No [src/components/Footer.jsx](src/components/Footer.jsx):
+
 - Email
 - Telefone
 - Instagram
@@ -149,5 +154,5 @@ Landing page desenvolvida com React e Material UI v5.
 
 **Preserve - Consultoria Ambiental**  
 📍 Gramado Xavier/RS  
-📧 contato@preserve.com.br  
+📧 preserveconsultoria.amb@gmail.com  
 📱 Instagram: @preserve_consultoria_amb
