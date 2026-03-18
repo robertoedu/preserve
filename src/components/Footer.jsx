@@ -101,7 +101,7 @@ const Footer = () => {
               <Stack direction="row" spacing={1}>
                 <IconButton
                   component="a"
-                  href="https://instagram.com/preserve_consultoria_amb"
+                  href="https://www.instagram.com/preserve_consultoria_amb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   sx={{
