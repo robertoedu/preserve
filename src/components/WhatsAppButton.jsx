@@ -11,7 +11,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const WhatsAppButton = () => {
   // Número de telefone (formato: código do país + DDD + número sem espaços ou caracteres especiais)
-  const phoneNumber = "5551999999999"; // Substitua pelo número real
+  const phoneNumber = "555192899662";
   const message =
     "Olá! Gostaria de saber mais sobre os serviços da Preserve Consultoria Ambiental.";
 

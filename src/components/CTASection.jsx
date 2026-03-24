@@ -11,7 +11,7 @@ import { Box, Container, Typography, Button, Stack } from "@mui/material";
 const CTASection = () => {
   const handleContactClick = () => {
     // Implementar redirecionamento para WhatsApp ou formulário de contato
-    window.open("https://wa.me/5551999999999", "_blank");
+    window.open("https://wa.me/555192899662", "_blank");
   };
 
   return (

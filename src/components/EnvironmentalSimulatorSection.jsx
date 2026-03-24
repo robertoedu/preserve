@@ -91,7 +91,7 @@ const EnvironmentalSimulatorSection = () => {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "51995977931"; // Substitua pelo número real
+    const phoneNumber = "555192899662";
 
     const resultado = needsLicense()
       ? "RESULTADO: Seu projeto PODE precisar de licenciamento ou regularizacao ambiental."

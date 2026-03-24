@@ -1,9 +1,9 @@
-import React from 'react';
-import { Box, Container, Grid, Typography, Button, Stack } from '@mui/material';
+import React from "react";
+import { Box, Container, Grid, Typography, Button, Stack } from "@mui/material";
 
 /**
  * Hero Section - Seção principal da landing page
- * 
+ *
  * Apresenta a proposta de valor da empresa de forma clara e atrativa
  * Layout responsivo com Grid: texto à esquerda, imagem à direita
  */
@@ -11,21 +11,21 @@ import { Box, Container, Grid, Typography, Button, Stack } from '@mui/material';
 const HeroSection = () => {
   const handleContactClick = () => {
     // Implementar redirecionamento para WhatsApp ou formulário de contato
-    window.open('https://wa.me/5551999999999', '_blank');
+    window.open("https://wa.me/555192899662", "_blank");
   };
 
   const handleServicesClick = () => {
     // Scroll suave para seção de serviços
-    document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <Box
       sx={{
-        minHeight: '100vh',
-        backgroundColor: 'background.default',
-        display: 'flex',
-        alignItems: 'center',
+        minHeight: "100vh",
+        backgroundColor: "background.default",
+        display: "flex",
+        alignItems: "center",
         py: { xs: 8, md: 12 },
       }}
     >
@@ -38,15 +38,15 @@ const HeroSection = () => {
                 variant="h1"
                 color="primary"
                 sx={{
-                  animation: 'fadeInUp 0.8s ease-out',
-                  '@keyframes fadeInUp': {
+                  animation: "fadeInUp 0.8s ease-out",
+                  "@keyframes fadeInUp": {
                     from: {
                       opacity: 0,
-                      transform: 'translateY(30px)',
+                      transform: "translateY(30px)",
                     },
                     to: {
                       opacity: 1,
-                      transform: 'translateY(0)',
+                      transform: "translateY(0)",
                     },
                   },
                 }}
@@ -58,18 +58,18 @@ const HeroSection = () => {
                 variant="body1"
                 color="text.secondary"
                 sx={{
-                  animation: 'fadeInUp 0.8s ease-out 0.2s backwards',
+                  animation: "fadeInUp 0.8s ease-out 0.2s backwards",
                 }}
               >
-                Soluções ambientais eficientes, construídas a partir de uma história real 
-                de amizade e compromisso com a natureza.
+                Soluções ambientais eficientes, construídas a partir de uma
+                história real de amizade e compromisso com a natureza.
               </Typography>
 
               <Stack
-                direction={{ xs: 'column', sm: 'row' }}
+                direction={{ xs: "column", sm: "row" }}
                 spacing={2}
                 sx={{
-                  animation: 'fadeInUp 0.8s ease-out 0.4s backwards',
+                  animation: "fadeInUp 0.8s ease-out 0.4s backwards",
                 }}
               >
                 <Button
@@ -77,9 +77,9 @@ const HeroSection = () => {
                   size="large"
                   onClick={handleContactClick}
                   sx={{
-                    backgroundColor: 'cta.main',
-                    '&:hover': {
-                      backgroundColor: '#347768',
+                    backgroundColor: "cta.main",
+                    "&:hover": {
+                      backgroundColor: "#347768",
                     },
                   }}
                 >
@@ -102,20 +102,20 @@ const HeroSection = () => {
           <Grid item xs={12} md={6}>
             <Box
               sx={{
-                width: '100%',
+                width: "100%",
                 height: { xs: 300, md: 500 },
                 borderRadius: 4,
-                overflow: 'hidden',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
-                animation: 'fadeInRight 1s ease-out 0.3s backwards',
-                '@keyframes fadeInRight': {
+                overflow: "hidden",
+                boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+                animation: "fadeInRight 1s ease-out 0.3s backwards",
+                "@keyframes fadeInRight": {
                   from: {
                     opacity: 0,
-                    transform: 'translateX(50px)',
+                    transform: "translateX(50px)",
                   },
                   to: {
                     opacity: 1,
-                    transform: 'translateX(0)',
+                    transform: "translateX(0)",
                   },
                 },
               }}
@@ -125,9 +125,9 @@ const HeroSection = () => {
                 src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80"
                 alt="Natureza - Preserve Consultoria Ambiental"
                 sx={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
                 }}
               />
             </Box>
